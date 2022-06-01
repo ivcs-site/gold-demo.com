@@ -256,3 +256,39 @@ body {
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+.widget {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 4px;
+    background: var(--mainColor);
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.widget span {
+    width: 20px;
+    height: 2px;
+    border-radius: 50px;
+    background: var(--fontColor);
+}
+
+.burger-widget {
+    top: 25px;
+    right: 15px;
+}
+
+.phone-widget {
+    bottom: 25px;
+    right: 15px;
+}
+
+.lang-widget {
+    bottom: 25px;
+    left: 15px;
+}
